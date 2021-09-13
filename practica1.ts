@@ -502,7 +502,7 @@ imprimirTareas(misTareas1);
 //En lugar de ello podemos asignar un arreglo normal a uno de solo lectura
 //const miLista2 = new ReadonlyArray('a','b','c');
 const miLista3: ReadonlyArray<string> = ['a','b','c']; 
- 
+
 
 
 //// Object type, tuplas ////////////////////
@@ -525,3 +525,5 @@ const a: StringNumberBooleans = ["a", 1, true, false, true];
 type Auto = readonly [string, number];
 const prius: Auto = ["Toyota", 2014];
 //prius[0] = 'Honda'; //Esta linea generaria un error
+
+
